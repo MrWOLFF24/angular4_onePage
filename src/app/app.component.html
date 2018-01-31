@@ -1,20 +1,104 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{title}}!
-  </h1>
-  <img width="300" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<header>
+    <div class="container">
+        <figure>
+            <a href="#top">
+                <img src="../assets/img/logo_dog.svg" alt="facebouc" class="position">
+            </a>
+        </figure>
 
+        <nav>
+            <ul>
+                <li><a class="nav" href="#people">People</a></li>
+                <li><a class="nav" href="#mission">Mission</a></li>
+                <li><a class="nav" href="#business">Business</a></li>
+                <li><a class="nav" href="#client">Client</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<section class="slide">
+    <figure class="animate">
+        <a href="#people">
+            <img src="../assets/img/slide.gif" alt="facebouc" title="voir le site">
+        </a>
+    </figure>
+</section>
+<!-- Start section people -->
+<section id="people">
+    <article class="visu">
+        <h1>{{title}}</h1>
+        <hr>
+        <p class="people">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum esse id necessitatibus nostrum quidem rem soluta! Est exercitationem necessitatibus tenetur.
+        </p>
+    </article>
+</section>
+<!-- End section people -->
+
+<!-- Start section mission -->
+<section id="mission" class="eco">
+    <article class="vu">
+        <h2>{{title2}}</h2>
+        <hr>
+        <p class="people">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda corporis in ipsa laboriosam vero voluptate voluptatibus. Eaque non tenetur unde!</p>
+        <figure class="mission">
+            <img src="../assets/img/rosace.png" alt="services">
+            <hr>
+            <p class="zone">Description du service</p>
+        </figure>
+
+        <figure class="mission">
+            <img src="../assets/img/bulle.png" alt="services">
+            <hr>
+            <p class="zone">Description du service</p>
+        </figure>
+
+        <figure class="mission">
+            <img src="../assets/img/compteur.png" alt="services">
+            <hr>
+            <p class="zone">Description du service</p>
+        </figure>
+    </article>
+</section>
+<!-- End section mission -->
+
+<!-- Start section Business -->
+<section id="business">
+    <article class="visu2">
+        <h3>{{title3}}</h3>
+        <hr>
+        <p class="people">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum iure perferendis quos vero. Ab doloribus enim laudantium, praesentium soluta voluptatem.</p>
+        <div class="contain">
+            <div id="space" class="conso">
+                <span class="complement">&mdash; Pour le visiteur &mdash;</span>
+                <p class="txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad amet dicta ea ipsam iusto mollitia quasi quidem quos veniam?</p>
+            </div>
+
+            <div class="conso">
+                <span class="complement">&mdash; Pour l'Utilisateur &mdash;</span>
+                <p class="txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad amet dicta ea ipsam iusto mollitia quasi quidem quos veniam?</p>
+            </div>
+        </div>
+    </article>
+</section>
+<!-- End section Business -->
+
+<!-- Start section Client -->
+<section id="client" class="eco">
+    <article class="vu">
+        <h3>{{title4}}</h3>
+        <hr>
+        <div class="center">
+            <div class="prevu"><img src="../assets/img/bouc.jpg" alt="client"></div>
+            <div class="prevu"><img src="../assets/img/bouc.jpg" alt="client"></div>
+            <div class="prevu"><img src="../assets/img/bouc.jpg" alt="client"></div>
+            <div class="prevu"><img src="../assets/img/bouc.jpg" alt="client"></div>
+            <div class="prevu"><img src="../assets/img/bouc.jpg" alt="client"></div>
+            <div class="prevu"><img src="../assets/img/bouc.jpg" alt="client"></div>
+        </div>
+    </article>
+</section>
+<!-- End section Client -->
+<footer>
+    &copy; 2017, facebouc
+</footer>
